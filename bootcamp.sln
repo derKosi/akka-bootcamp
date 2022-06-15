@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit-1", "Unit-1", "{65AC3F89-CDB8-442F-B13E-4C5F7EB1C5FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinTail", "Unit-1\WinTail.csproj", "{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit-2", "Unit-2", "{364A7F62-FC5F-4029-97BD-76B47CCF6545}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartApp", "Unit-2\ChartApp.csproj", "{55806C1D-37A5-49DF-A89C-96270A351A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{C34F62F3-1074-4D7B-B4AF-38723E6177DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartWin", "Tools\winforms-datavisualization-1.3\src\System.Windows.Forms.DataVisualization\ChartWin.csproj", "{7332BC76-2D47-4595-A595-829EDC004B93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7FB8CC9-5BEE-498A-B2AA-5F1D5183F225}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit-3", "Unit-3", "{567E9B9C-B6EF-4E0A-A466-597622297CAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubActors", "Unit-3\GithubActors.csproj", "{C7858D78-86EB-4F15-806A-8EB083E15AB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55806C1D-37A5-49DF-A89C-96270A351A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55806C1D-37A5-49DF-A89C-96270A351A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55806C1D-37A5-49DF-A89C-96270A351A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55806C1D-37A5-49DF-A89C-96270A351A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7332BC76-2D47-4595-A595-829EDC004B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7332BC76-2D47-4595-A595-829EDC004B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7332BC76-2D47-4595-A595-829EDC004B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7332BC76-2D47-4595-A595-829EDC004B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7858D78-86EB-4F15-806A-8EB083E15AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7858D78-86EB-4F15-806A-8EB083E15AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7858D78-86EB-4F15-806A-8EB083E15AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7858D78-86EB-4F15-806A-8EB083E15AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB338FC3-89AB-44BE-B66A-BBDEEF2A7AFE} = {65AC3F89-CDB8-442F-B13E-4C5F7EB1C5FE}
+		{55806C1D-37A5-49DF-A89C-96270A351A70} = {364A7F62-FC5F-4029-97BD-76B47CCF6545}
+		{7332BC76-2D47-4595-A595-829EDC004B93} = {C34F62F3-1074-4D7B-B4AF-38723E6177DA}
+		{C7858D78-86EB-4F15-806A-8EB083E15AB4} = {567E9B9C-B6EF-4E0A-A466-597622297CAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {367BC140-0CE3-4041-95F0-AC542E275E00}
+	EndGlobalSection
+EndGlobal
